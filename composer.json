@@ -1,0 +1,51 @@
+{
+    "name": "opinionpadi/offers",
+    "description": "Send purchases, signups and refunds to the OpinionPadi Offers events API from PHP.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://opinionpadi.com/developers/offers",
+    "keywords": [
+        "opinionpadi",
+        "offers",
+        "affiliate",
+        "conversions",
+        "attribution",
+        "nigeria"
+    ],
+    "authors": [
+        {
+            "name": "OpinionPadi",
+            "homepage": "https://opinionpadi.com"
+        }
+    ],
+    "support": {
+        "docs": "https://opinionpadi.com/developers/offers",
+        "source": "https://github.com/MixedFraction-devs/opinionpadi-offers-php",
+        "issues": "https://github.com/MixedFraction-devs/opinionpadi-offers-php/issues"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpinionPadi\\Offers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpinionPadi\\Offers\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
